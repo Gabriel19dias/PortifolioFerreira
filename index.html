@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gabriel Ferreira</title>
+    <link rel="stylesheet" href="style.css"> <!-- Referência ao CSS -->
+    <script src="script.js" defer></script> <!-- Referência ao JS -->
+    <!-- Link para o Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #292828; color: white;"> <!-- Tema escuro para o corpo inteiro -->
+
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color:#1e1e1e;">
+        <a class="navbar-brand" href="#">Gabriel Ferreira</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de Banner com Foto -->
+    <section class="jumbotron text-center" id="banner" style="background-image: url('file:///C:/Users/gabri/Downloads/Portifolio-Gabriel-Ferreira--main/Portifolio-Gabriel-Ferreira--main/iteins/background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 60px 0;">
+        <div class="container">
+            <div class="banner-content">
+                <img class="foto-perfil rounded-circle mb-4" src="iteins/ftperfil2.jpeg" alt="Foto de Perfil" style="width: 150px; height: 150px; object-fit: cover;">
+                <h1 class="jumbotron-heading" style="color:#ffffff; text-transform: uppercase;">Gabriel Ferreira</h1>
+                <p class="lead" style="color:white;">Data Science | Python | Power Platform | Desenvolvimento |</p>
+               
+    
+                <!-- Links para redes sociais -->
+                <div class="social-links mt-3">
+                    <a href="https://github.com/Gabriel19dias" class="mr-3" target="_blank" title="GitHub">
+                        <i class="fab fa-github" style="color:white; font-size: 30px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabriel-ferreira-5b8049206/" class="mr-3" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin" style="color:white; font-size: 30px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="conhecimentos" class="py-5" style="background-color: #2d2d2d;">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading" style="color:#40adce;margin-bottom: 45px;">Conhecimentos</h2>
+
+            <div class="row">
+                <!-- Python -->
+                <div class="col-md-2 text-center mb-4">
+                    <img src="iteins/PowerPlataforma.png" alt="Power Apps" style="max-width: 50px; height: auto;">
+                    <p style="color:white;">Power platform</p>
+                </div>
+
+                <div class="col-md-2 text-center mb-4">
+                    <img src="iteins/python.png" alt="Python" style="max-width: 50px; height: auto;">
+                    <p style="color:white;">Python</p>
+                </div>
+              
+                <!-- HTML -->
+                <div class="col-md-2 text-center mb-4">
+                    <img src="iteins/html.png" alt="HTML" style="max-width: 50px; height: auto;">
+                    <p style="color:white;">HTML</p>
+                </div>
+                <!-- CSS -->
+                <div class="col-md-2 text-center mb-4">
+                    <img src="iteins/css.png" alt="CSS" style="max-width: 50px; height: auto;">
+                    <p style="color:white;">CSS</p>
+                </div>
+
+                <div class="col-md-2 text-center mb-4">
+                    <img src="iteins/javascript.png" alt="JavaScript" style="max-width: 50px; height: auto;">
+                    <p style="color:white;">JavaScript</p>
+                </div>
+
+                <!-- SQL Server -->
+                <div class="col-md-2 text-center mb-4">
+                    <img src="iteins/sql.png" alt="SQL Server" style="max-width: 50px; height: auto;">
+                    <p style="color:white;">SQL Server</p>
+                </div>
+           
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projetos" class="album py-5" style="background-color: #2d2d2d; margin-top: 60px; margin-bottom: 50px;">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading" style="color:#1f77b4; margin-bottom: 40px;">Projetos</h2>
+    
+            <!-- Primeira linha de cards -->
+            <div class="row mb-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card text-white bg-dark" style="height: 100%;">
+                        <!-- Vídeo no primeiro card -->
+                        <div class="embed-responsive embed-responsive-16by9" style="height: 300px;">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5fc6hvTKGMQ?si=ao6Tra7O7884gMAS&amp;start=309" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="height: 100%;"></iframe>
+                        </div>
+                        <div class="card-body d-flex flex-column" style="height: calc(100% - 300px);">
+                            <h5 class="card-title">Power Apps com 20 mil linhas em segundos</h5>
+                            <p class="card-text">O projeto divide um DataFrame usando Python e envia os dados em formato JSON para uma lista no SharePoint. O Power Apps lê a lista e processa os dados por cedula (bloco), facilitando o gerenciamento de grandes volumes de informação.</p>
+                            <a href="https://github.com/Gabriel19dias/Apps-input-json---Graph-API" class="btn btn-outline-light mt-auto">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 mb-4">
+                    <div class="card text-white bg-dark" style="height: 100%;">
+                        <!-- Ajuste do tamanho da imagem -->
+                        <img src="iteins/quilometragem.jpeg" class="card-img-top" alt="Projeto 2" style="height: 300px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Python - Busca Quilometragem entre Ceps</h5>
+                            <p class="card-text">Este projeto em Python visa calcular a distância entre dois CEPs utilizando o Google Maps e obter a imagem de thumbnail do trajeto. A solução utiliza as bibliotecas Selenium para automação do navegador e BeautifulSoup para extração de dados da página do Google Maps. O objetivo é gerar uma planilha Excel contendo informações sobre a distância entre os CEPs, o link direto para o trajeto no Google Maps e a imagem de thumbnail do mapa.</p>
+                            <a href="https://github.com/Gabriel19dias/BuscaQuilometragemMaps" class="btn btn-outline-light mt-auto">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Segunda linha de cards -->
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card text-white bg-dark" style="height: 100%;">
+                        <!-- Incorporando o Power BI com iframe -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZWUyMjQ2MzYtNDg4MC00OThiLTkwMDItYjlhMGZjYjk4N2Q5IiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" 
+                                style="width: 100%; height: 300px; border: none;"></iframe>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Power BI - Dashboard Overview veículos</h5>
+                            <p class="card-text">Descrição do Dashboard Overview, uma visualização completa do desempenho dos veículos e dados relacionados, com acesso dinâmico via Power BI.</p>
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiZWUyMjQ2MzYtNDg4MC00OThiLTkwMDItYjlhMGZjYjk4N2Q5IiwidCI6ImI5ZGY4YjEzLTE2NjgtNDlkYS04NDA4LTc1NzVlMjQ2MDIwNCJ9" class="btn btn-outline-light mt-auto">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 mb-4">
+                    <div class="card text-white bg-dark" style="height: 100%;">
+                        <!-- Ajuste do tamanho da imagem -->
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Projeto 4" style="height: 300px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Em breve</h5>
+                            <p class="card-text">Em produção .....</p>
+                            <a href="https://github.com/Projeto4" class="btn btn-outline-light mt-auto">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Seção Sobre Mim -->
+    <section class="jumbotron text-center" id="sobre-mim" style="background-color:#2d2d2d;">
+        <div class="container">
+            <h2 class="jumbotron-heading" style="color:#1f77b4;">Sobre mim</h2>
+            <p class="lead" style="color:white;">Sou um profissional focado em desenvolver soluções tecnológicas que otimizam processos e geram insights estratégicos a partir da análise e manipulação de dados. Com sólida experiência em gestão da informação, automação e integração de sistemas
+                .</p>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section id="depoimentos" class="py-5" style="background-color: #2d2d2d;">
+        <div class="container">
+            <h2 class="text-center" style="color:#1f77b4;">Depoimentos</h2>
+            <blockquote class="blockquote text-center" style="color: white;">
+                <p class="mb-0">Gabriel, profissional dedicado e orientado ao resultado.
+                    Com grande facilidade de aprendizagem e ótimo trabalho em equipe. 
+                    Profissional com didática aplicada para resolução de problemas e agilidade na tomada de decisão.</p>
+                <footer class="blockquote-footer">Alexsander Lippi <cite title="Source Title">Especialista em Transformação Digital na Prosegur </cite></footer>
+            </blockquote>
+            <blockquote class="blockquote text-center" style="color: white;">
+                <p class="mb-0">O Gabriel é um profissional apaixonado por aprendizado contínuo e crescimento pessoal. Com um espírito de equipe incomparável e uma visão sistêmica afiada, ele é um verdadeiro catalisador de mudanças. Em pouco tempo pude acompanhar sua notável evolução, tanto pessoal quanto profissionalmente. Para ele, não existem obstáculos, apenas oportunidades de crescimento e superação. Sempre pronto para assumir responsabilidades e superar desafios, Gabriel é o tipo de pessoa que eleva o padrão onde quer que esteja..</p>
+                <footer class="blockquote-footer">Francisco Monteiro da Silva Neto <cite title="Source Title">Analista de Sistema e Projetos</cite></footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="text-center py-5" style="background-color:#1f77b4;">
+        <div class="container">
+            <h3 class="text-white">Disponível para oportunidades</h3>
+            <h4 class="text-white">
+                <a href="mailto:gabriel.fe.dias@gmail.com" class="text-white">gabriel.fe.dias@gmail.com</a>
+            </h4>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center" style="background-color:#1e1e1e; padding: 15px;">
+        <p class="text-white" style="font-size: 14px;">&copy; 2025 Gabriel Ferreira. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+/* Geral */
+body {
+    background-color: #292828;
+    color: white;
+    position: relative;
+    overflow-x: hidden; /* Impede rolagem horizontal */
+    overflow-y: auto; /* Permite rolagem vertical */
+    height: 100vh; /* Garantir que o corpo ocupe a altura da tela */
+}
+
+/* Banner */
+#banner {
+    position: relative;
+    background: url('https://via.placeholder.com/1920x400') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Seção de Projetos */
+.card {
+    background-color: #333;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e1e1e;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+}
